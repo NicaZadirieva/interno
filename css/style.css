@@ -1,5 +1,7 @@
 body {
     font-family: "Jost", sans-serif;
+    /*hint: удаляем ненужный дефолтный отступ*/
+    margin: 0;
     /*font-family: 'DM Serif Display', serif*/
 }
 

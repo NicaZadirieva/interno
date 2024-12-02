@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4D5053;
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+
+.footer__contacts {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /*hint: переопределим отступ по умолчанию для тега ul*/
+    padding-left: 0;
+}
+
+.contacts__item {
+    margin-left: 86px;
+}
+
+footer {
+    background: #F7F7F7;
+}
