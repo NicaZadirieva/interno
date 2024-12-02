@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -36,7 +37,7 @@
                             <a class="header__link" href="#">Contact</a>
                         </li>
                         <li class="header__item">
-                            <button class="header__search">
+                            <button class="header__search" onClick="openModal();">
                                 <img src='/img/icon/search-icon.svg' alt="Search button" />
                             </button>
                         </li>
@@ -67,6 +68,22 @@
             </div>
         </div>
     </footer>
+    <div class="overlay" id="overlay">
+        <div class="modal-search">
+            <div class="container">
+                <div class="modal-search__content">
+                    <input class='modal-search__input' type="text" placeholder="Search" />
+                    <button class='modal-search__submit' type="submit">
+                        <img src='/img/icon/arrow-next-icon-2.svg' alt="Иконка поиска" />
+                    </button>
+                    <button class='modal-search__close' type="button" onClick="closeModal();">
+                        <img src='/img/icon/close-icon.svg' alt="Иконка закрытия" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script/search-actions.js"></script>
 </body>
 
 </html>

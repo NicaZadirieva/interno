@@ -3,6 +3,8 @@ body {
     /*hint: удаляем ненужный дефолтный отступ*/
     margin: 0;
     /*font-family: 'DM Serif Display', serif*/
+    background-image: url(/img/line.svg);
+    background-repeat: repeat-y;
 }
 
 .container {
@@ -12,3 +14,4 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
