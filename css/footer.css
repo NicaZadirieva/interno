@@ -19,6 +19,15 @@
     margin-left: 86px;
 }
 
+.contacts__link {
+    text-decoration: none;
+    color: #4D5053;
+}
+
+.contacts__link:hover {
+    color: #CDA274;
+}
+
 footer {
     background: #F7F7F7;
 }
