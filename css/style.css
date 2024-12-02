@@ -2,3 +2,11 @@ body {
     font-family: "Jost", sans-serif;
     /*font-family: 'DM Serif Display', serif*/
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /*hint: безопасные расстояния*/
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 45px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /*hint: переопределим отступ по умолчанию для тега ul*/
+    padding-left: 0;
+}
+
+.header__item {
+    margin-left: 48px;
+}
+
+.header__item:last-child {
+    margin-left: 30px;
+}
+
+.header__link {
+    color: #292F36;
+    font-family: Jost;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: #CDA274;
+}
+
+.header__search {
+    /*hint: переопределим отступ по умолчанию для тега button*/
+    padding: 0;
+    background: transparent;
+    border: none;
+    /*hint: чтобы не использовать width и height у img для центровки кнопки*/
+    display: flex;
+    cursor: pointer;
+}

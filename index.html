@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interno</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text&family=Open+Sans:ital@0;1&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@1,100..900&family=Open+Sans:ital@0;1&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost" rel="stylesheet">
 </head>
 
 <body>
@@ -21,16 +18,24 @@
         <div class="container">
             <div class="header">
                 <a href="#" class="logo">
-                    <img src="/img/logo.png" alt="Interno Logo" />
+                    <img src="/img/logo.svg" alt="Interno Logo" />
                 </a>
                 <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Projects</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li>
-                            <button>
+                    <ul class="header__nav">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Our Projects</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Contact</a>
+                        </li>
+                        <li class="header__item">
+                            <button class="header__search">
                                 <img src='/img/icon/search-icon.svg' alt="Search button" />
                             </button>
                         </li>

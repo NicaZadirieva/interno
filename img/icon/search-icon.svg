@@ -3,5 +3,5 @@
 		Search Icon
 	</desc>
 	<defs/>
-	<path id="Vector" d="M9.93 19.12C4.86 19.12 0.75 15.01 0.75 9.93C0.75 4.86 4.86 0.75 9.93 0.75C15.01 0.75 19.12 4.86 19.12 9.93C19.12 15.01 15.01 19.12 9.93 19.12ZM16.43 16.43L21.74 21.75" stroke="#141414" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="search" d="M9.93 19.12C4.86 19.12 0.75 15.01 0.75 9.93C0.75 4.86 4.86 0.75 9.93 0.75C15.01 0.75 19.12 4.86 19.12 9.93C19.12 15.01 15.01 19.12 9.93 19.12ZM16.43 16.43L21.74 21.75" stroke="#141414" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
 </svg>
