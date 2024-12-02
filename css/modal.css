@@ -40,12 +40,25 @@
 .modal-search__submit, .modal-search__close {
     padding: 0;
     border: none;
-    background: none;
+    background-color: transparent;
     cursor: pointer;
 }
 
 .modal-search__submit {
-    padding: 18px 25px;
     border-radius: 50%;
     border: 1px solid rgb(205, 162, 116);
+    background-image: url('/img/icon/arrow-next-icon-2.svg');
+    background-position: center center;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-size: 6px 14px; /*TODO: зачем размеры стрелки*/
+}
+
+.modal-search__close {
+    background-image: url('/img/icon/close-icon.svg');
+    width: 22px;
+    height: 22px;
+    display: block;
 }
