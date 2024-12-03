@@ -17,3 +17,13 @@
     object-fit: cover;
     z-index: -1;
 }
+
+.hero__title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.hero__title, .hero__text {
+    max-width: 567px;
+}
