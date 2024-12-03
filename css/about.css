@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 21px;
     padding-top: 250px;
+    padding-bottom: 241px;
 }
 
 .about__tel {
@@ -58,4 +59,9 @@
     background-repeat: no-repeat;
     background-size: 30px 30px;
     cursor: pointer;
+}
+
+.about__button {
+    margin-top: 47px;
+    display: block;
 }
