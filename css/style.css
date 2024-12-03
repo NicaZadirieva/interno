@@ -24,6 +24,7 @@ body {
 a.button-container {
     text-decoration: none;
 }
+
 .button {
     font-size: 18px;
     border-radius: 18px;
@@ -36,4 +37,5 @@ a.button-container {
     color: rgb(255, 255, 255);
     padding: 26px 31px;
     gap: 5px;
+    cursor: pointer;
 }
