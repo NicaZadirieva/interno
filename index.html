@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/modal.css" />
     <link rel="stylesheet" href="/css/hero.css" />
     <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/slider.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -90,20 +91,38 @@
                     <img src="/img/art.png" class="about__img" alt="Изображение приоритета компании" />
                 </div>
             </div>
-            <div class="swiper mySwiper">
+            <div class="swiper swiper-feedback">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        Slide 1
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
                     </div>
-                    <div class="swiper-slide">
-                        Slide 2
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
                     </div>
-                    <div class="swiper-slide">
-                        Slide 3
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-feedback__next swiper-button-next"></div>
+                <div class="swiper-feedback__prev swiper-button-prev"></div>
             </div>
         </div>
     </main>
@@ -146,7 +165,7 @@
     <script src="/script/search-actions.js"></script>
     <script src="/script/slider.js"></script>
     <script>
-        initializeSwiper('.mySwiper');
+        initializeSwiper('.swiper-feedback');
     </script>
 </body>
 
