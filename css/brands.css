@@ -1,5 +1,6 @@
 .brands {
     margin-top: 178px;
+    margin-bottom: 178px;
     display: flex;
     flex-direction: row;
     justify-content: center;
