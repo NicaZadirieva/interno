@@ -63,3 +63,7 @@
 .breadcrumbs>li:last-child::after {
     display: none;
 }
+
+.articles__items {
+    row-gap: 30px;
+}

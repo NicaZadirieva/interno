@@ -44,3 +44,7 @@ a.button-container {
     margin: 0;
     padding: 0;
 }
+
+.page {
+    margin-top: 150px;
+}
