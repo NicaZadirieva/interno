@@ -1,0 +1,42 @@
+.subscribe {
+    background-color: #292F36;
+    border-radius: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.subscribe .h2, .subscribe p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subscribe-box {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.subscribe-box__input, .subscribe-box__button {
+    padding-left: 21px;
+    padding-top: 28px;
+    padding-bottom: 28px; 
+}
+
+.subscribe-box__input {
+    background-color: #FFFFFF;
+    color: #98A2B3;
+    border: 1px solid rgb(208, 213, 221);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.subscribe-box__button {
+    background-color: #CDA274;
+    color: #FFFFFF;
+    border: none;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}

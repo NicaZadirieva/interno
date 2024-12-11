@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno</title>
+    <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/slider.css" />
+    <link rel="stylesheet" href="/css/brands.css" />
+    <link rel="stylesheet" href="/css/stats.css" />
+    <link rel="stylesheet" href="/css/articles.css" />
+    <link rel="stylesheet" href="/css/newsletter.css" />
+    <link rel="stylesheet" href="/css/feedback_form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="#" class="logo">
+                    <img src="/img/logo.svg" alt="Interno Logo" />
+                </a>
+                <nav>
+                    <ul class="header__nav">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Our Projects</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Contact</a>
+                        </li>
+                        <li class="header__item">
+                            <button class="header__search" onClick="openModal();">
+                                <img src='/img/icon/search-icon.svg' alt="Search button" />
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <img alt='Изображение первого блока сайта' class="hero__img" src="/img/header/header-main.png" />
+            <div class="container">
+                <h1 class="hero__title">Let Your Home Be Unique</h1>
+                <p class="hero__text">There are many variations of the passages of lorem Ipsum fromavailable,variations
+                    of the passages.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about">
+                <div class="about__text">
+                    <h2 class="h2">We Create The Art Of Stylish Living Stylishly</h2>
+                    <p>It is a long established fact that a reader will be distracted by the of readable content of a
+                        page
+                        when lookings at its layouts the points of using
+                        that it has a more-or-less normal.</p>
+                    <div class="about__tel">
+                        <a href="tel:012345678">
+                            <button class="about__tel__button">
+                            </button>
+                        </a>
+                        <div class="about__tel-content">
+                            <a href="tel:012345678" class="tel-content__link">
+                                012345678
+                            </a>
+                            <p>Call Us Anytime</p>
+                        </div>
+
+                    </div>
+                    <a href="#" class="about__button button-container">
+                        <button class="button" type="button">
+                            <span>Get Free Estimate</span>
+                            <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                        </button>
+                    </a>
+                </div>
+                <div class="about__thumb">
+                    <img src="/img/art.png" class="about__img" alt="Изображение приоритета компании" />
+                </div>
+            </div>
+            <div class="swiper swiper-feedback">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
+                    </div>
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
+                    </div>
+                    <div class="swiper-slide swiper-feedback__slide">
+                        <h2 class="title">What our Customers says...</h2>
+                        <p class="swiper-feedback__text">I like an interior that defies labeling. I don't really want
+                            someone to walk into a room and know that I did it</p>
+                        <span class="swiper-feedback__author">
+                            -BUNNY WILLIAMS
+                        </span>
+
+                    </div>
+                </div>
+                <div class="swiper-feedback__next swiper-button-next"></div>
+                <div class="swiper-feedback__prev swiper-button-prev"></div>
+            </div>
+            <div class="brands">
+                <img class="brands__img" src="/img/modern-home.svg" alt="Бренд 1" />
+                <img class="brands__img" src="/img/stylevintage.svg" alt="Бренд 2" />
+                <img class="brands__img" src="/img/brand.svg" alt="Бренд 3" />
+                <img class="brands__img" src="/img/nature-home.svg" alt="Бренд 4" />
+                <img class="brands__img" src="/img/classic-studio.svg" alt="Бренд 5" />
+            </div>
+
+        </div>
+        <div class="stats">
+            <div class="container">
+                <div class="stats__item">
+                    <div class="stats__item__number">12</div>
+                    <div class="stats__item__text">Years Of Experience</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__item__number">85</div>
+                    <div class="stats__item__text">Success Project</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__item__number">15</div>
+                    <div class="stats__item__text">Active Project</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__item__number">95</div>
+                    <div class="stats__item__text">Happy CUstomers</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="articles">
+                <header class="articles__header">
+                    <h2 class="h2">Articles & News</h2>
+                    <p>It is a long established fact that a reader will be distracted by the of readable content of a
+                        page
+                        when lookings at its
+                        layouts the points of using.</p>
+                </header>
+                <main class="articles__items">
+                    <div class="article">
+                        <div class="article__thumb">
+                            <img class="article__img" alt="Kitchan design" src="/img/articles/kitchan-design.png" />
+                            <span class="article_tag">
+                                Kitchan design
+                            </span>
+                        </div>
+                        <h3 class="article__title">
+                            <a>Let’s Get Solution For Building Construction Work</a>
+                        </h3>
+                        <div class="article__info">
+                            <span class="article__date">28 February, 2021</span>
+                            <a href="#" class="article__link"></a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article__thumb">
+                            <img class="article__img" alt="Living design" src="/img/articles/living-design.png" />
+                            <span class="article_tag">
+                                Living design
+                            </span>
+                        </div>
+                        <h3 class="article__title">
+                            <a>Low Cost Latest Invented Interior Designing Ideas.</a>
+                        </h3>
+                        <div class="article__info">
+                            <span class="article__date">28 February, 2021</span>
+                            <a href="#" class="article__link"></a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article__thumb">
+                            <img class="article__img" alt="Kitchan design" src="/img/articles/interior-design.png" />
+                            <span class="article_tag">
+                                Interior Design
+                            </span>
+                        </div>
+                        <h3 class="article__title">
+                            <a>Best For Any Office & Business Interior Solution</a>
+                        </h3>
+                        <div class="article__info">
+                            <span class="article__date">28 February, 2021</span>
+                            <a href="#" class="article__link"></a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="subscribe">
+                <h2 class="h2">Personally Newsletter</h2>
+                <p class="p">A bi-weekly newsletter of design inspiration.</p>
+                <div class="subscribe-box">
+                    <input class="subscribe-box__input" type="email" placeholder="Email address" required />
+                    <button class="subscribe-box__button button" type="submit">
+                        <span>Subscribe</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container feedback-form-container">
+            <h2 class="h2 feedback-form-container__h2">Creative project? Let's have a productive talk.</h2>
+            <form class="feedback-form" action="#" method="POST">
+                <input placeholder="Name" class="feedback-form__input" type="text" name="name" required />
+                <input placeholder="Email" class="feedback-form__input" type="email" name="email" required />
+                <textarea placeholder="Hello I am interested in" class="feedback-form__textarea" id="interested_in"
+                    name="interested_in"></textarea>
+                <button type="submit" class="button feedback-form__submit">
+                    <span>Send Now</span>
+                    <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                </button>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="#" class="logo">
+                    <img src="/img/logo.svg" alt="Interno Logo" />
+                </a>
+                <ul class="footer__contacts">
+                    <li class="contacts__item">
+                        <div class='item__address'>55 East Birchwood Ave. <br /> Brooklyn, New York 11201</div>
+                    </li>
+
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:contact@interno.com">contact@interno.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="tel:1234567890">(123) 456 - 7890</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    <div class="overlay" id="overlay">
+        <div class="modal-search">
+            <div class="container">
+                <div class="modal-search__content">
+                    <input class='modal-search__input' type="text" placeholder="Search" />
+                    <button class='modal-search__submit' type="submit">
+                    </button>
+                    <button class='modal-search__close' type="button" onClick="closeModal();">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/swiper/swiper-bundle.min.js"></script>
+    <script src="/script/search-actions.js"></script>
+    <script src="/script/slider.js"></script>
+    <script>
+        initializeSwiper('.swiper-feedback');
+    </script>
+</body>
+
+</html>
