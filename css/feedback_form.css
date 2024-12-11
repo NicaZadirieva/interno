@@ -1,0 +1,11 @@
+.feedback-form-container {
+    padding: 81px 77px;
+    width: fit-content;
+}
+.feedback-form-container__h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 400;
+    width: 634px;
+}
