@@ -1,6 +1,6 @@
 function initializeSwiper(swiperClass) {
   var swiper = new Swiper(swiperClass, {
-    loop: true,
+    loop: false,
     effect: "coverflow",
     coverFlowEffect: {
       rotate: 30,
