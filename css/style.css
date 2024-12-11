@@ -39,3 +39,8 @@ a.button-container {
     gap: 5px;
     cursor: pointer;
 }
+
+.p {
+    margin: 0;
+    padding: 0;
+}
