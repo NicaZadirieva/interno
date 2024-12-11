@@ -74,6 +74,7 @@
     border-radius: 62px;
     box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
     border: 1px solid rgb(231, 231, 231);
+    gap: 4vw;
 }
 .article-main__link {
     border-radius: 50%;
