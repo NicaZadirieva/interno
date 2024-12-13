@@ -109,3 +109,22 @@
 .category__list-item:last-child {
     border-bottom: none;
 }
+
+/**********TAGS-WIDGET**************/
+.tags__list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags__list__item {
+    padding: 9px 30px;
+    background: rgb(244, 240, 236);
+    border-radius: 10px;
+}
+
+.current-tag {
+    background: rgb(41, 47, 54);
+    color: white;
+}
