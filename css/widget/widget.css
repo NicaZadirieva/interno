@@ -1,0 +1,50 @@
+.widget__title {
+    color: rgb(41, 47, 54);
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.widget-search__content {
+    display: flex;
+    padding: 34px 33px;
+    border-radius: 20px;
+    background: rgb(244, 240, 236);
+    align-items: center;
+}
+
+.widget-search__input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(205, 162, 116);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.widget-search__input::-webkit-input-placeholder {
+    color: rgb(205, 162, 116);
+}
+
+.widget-search__input::-moz-placeholder {
+    color: rgb(205, 162, 116);
+}
+
+.widget-search__input::-ms-placeholder {
+    color: rgb(205, 162, 116);
+}
+
+.widget-search__input::placeholder {
+    color: rgb(205, 162, 116);
+}
+
+.widget-search__submit {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
