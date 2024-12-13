@@ -128,3 +128,10 @@
     background: rgb(41, 47, 54);
     color: white;
 }
+
+/**********WIDGET-END-LINE****************/
+
+.widget-end-line {
+    background-color: rgb(229, 229, 229);
+    margin-top: 50px;
+}
