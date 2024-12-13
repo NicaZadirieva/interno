@@ -72,3 +72,8 @@ a.button-container {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.ul {
+    margin: 0;
+    list-style-type: none;
+}

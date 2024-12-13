@@ -14,9 +14,7 @@
 
 .breadcrumbs {
     color: #4D5053;
-    list-style-type: none;
     /*hint: обнуляю стили по умолчанию для ul.breadcrumbs*/
-    margin: 0;
     padding-left: 0;
     display: flex;
     justify-content: center;
