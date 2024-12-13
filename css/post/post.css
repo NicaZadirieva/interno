@@ -1,5 +1,47 @@
 .content {
-    display: grid;
-    grid-template-columns: 1fr 345px;
-    gap: 52px;
+  display: grid;
+  grid-template-columns: 1fr 345px;
+  gap: 52px;
+}
+
+.avatar__image__container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*TODO: посмотреть как сделал лектор*/
+  transform: translateX(25%) translateY(25%) scale(1.5);
+}
+
+.author__avatar {
+  display: flex;
+  gap: 20px;
+}
+.avatar__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__name {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.info__about, .author__info {
+  color: rgb(77, 80, 83);
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.author__info {
+    margin-top: 51px;
 }
