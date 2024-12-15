@@ -9,7 +9,7 @@
     margin-bottom: 50px;
 }
 /******SEARCH WIDGET**********/
-.widget-search__content {
+.area-search {
     display: flex;
     padding: 34px 33px;
     border-radius: 20px;
@@ -17,33 +17,33 @@
     align-items: center;
 }
 
-.widget-search__input {
+.area-search__input {
     outline: none;
     background-color: transparent;
     border: none;
     color: rgb(205, 162, 116);
-    font-family: Jost;
+    font-family: 'Jost', sans-serif;
     font-size: 22px;
     font-weight: 400;
 }
 
-.widget-search__input::-webkit-input-placeholder {
+.area-search__input::-webkit-input-placeholder {
     color: rgb(205, 162, 116);
 }
 
-.widget-search__input::-moz-placeholder {
+.area-search__input::-moz-placeholder {
     color: rgb(205, 162, 116);
 }
 
-.widget-search__input::-ms-placeholder {
+.area-search__input::-ms-placeholder {
     color: rgb(205, 162, 116);
 }
 
-.widget-search__input::placeholder {
+.area-search__input::placeholder {
     color: rgb(205, 162, 116);
 }
 
-.widget-search__submit {
+.area-search__submit {
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -110,6 +110,14 @@
     border-bottom: none;
 }
 
+.category__list-item .list-item__link {
+    transition: .3s;
+}
+
+.category__list-item .list-item__link:hover {
+    color: #CDA274;
+}
+
 /**********TAGS-WIDGET**************/
 .tags__list {
     padding: 0;
@@ -122,9 +130,10 @@
     padding: 9px 30px;
     background: rgb(244, 240, 236);
     border-radius: 10px;
+    transition: .3s;
 }
 
-.current-tag {
+.tags__list__item:hover {
     background: rgb(41, 47, 54);
     color: white;
 }
