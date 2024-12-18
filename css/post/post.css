@@ -104,7 +104,7 @@
 .post ul {
 }
 
-.post ol, ul {
+.post ol {
   list-style-type: none; /* removes default bullets and numbers */
   padding-left: 0; /* removes left padding */
 }
@@ -176,4 +176,35 @@ span.post__date {
   width: 100%;
   height: 100%;
   border-radius: 62px;
+}
+.post__footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+.post__footer-tags {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.post__footer span {
+  color: rgb(0, 0, 0);
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+}
+
+.post__footer-end-line {
+  background-color: rgb(229, 229, 229);
+  margin: 44px 0;
+}
+
+
+
+.post__share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -5,6 +5,7 @@
     color: #4D5053;
     padding-top: 80px;
     padding-bottom: 80px; 
+    background: #F7F7F7;
 }
 
 .footer__contacts {
@@ -25,8 +26,4 @@
 
 .contacts__link:hover {
     color: #CDA274;
-}
-
-footer {
-    background: #F7F7F7;
 }
