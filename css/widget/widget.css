@@ -10,21 +10,19 @@
 }
 /******SEARCH WIDGET**********/
 .area-search {
-    display: flex;
-    padding: 34px 33px;
-    border-radius: 20px;
-    background: rgb(244, 240, 236);
-    align-items: center;
+    position: relative;
 }
 
 .area-search__input {
-    outline: none;
-    background-color: transparent;
-    border: none;
-    color: rgb(205, 162, 116);
+    width: 100%;
     font-family: 'Jost', sans-serif;
     font-size: 22px;
-    font-weight: 400;
+    background-color: #F4F0EC;
+    border: 1px solid #F4F0EC;
+    border-radius: 20px;
+    padding: 34px 65px 34px 34px;
+    transition: .3s;
+    box-sizing: border-box;
 }
 
 .area-search__input::-webkit-input-placeholder {
@@ -43,12 +41,26 @@
     color: rgb(205, 162, 116);
 }
 
-.area-search__submit {
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+.area-search__input:focus {
+    outline: none;
+    background-color: #FFF;
+    border: 1px solid #CDA274;
 }
 
+.area-search__submit {
+    position: absolute;
+    right: 33px;
+    top: calc(50% - 13.5px);
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    background-image: url('/img/icon/orange-search-btn.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    cursor: pointer;
+}
 
 /**********LATEST-WIDGET************/
 .area-news {
