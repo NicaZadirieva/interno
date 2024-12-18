@@ -64,27 +64,40 @@
 
 /**********LATEST-WIDGET************/
 .area-news {
-    display: flex;
-    padding-bottom: 7px;
+    position: relative;
+    padding-bottom: 35px;
     border-bottom: 1px solid rgb(205, 162, 116);
 }
+
+.area-news + .area-news {
+    margin-top: 35px;
+}
+
 .area-news__title {
     color: rgb(41, 47, 54);
+    display: block;
     font-family: 'DM Serif Display', serif;
     font-size: 20px;
     font-weight: 400;
     text-align: left;
-    margin-bottom: 35px;
     max-width: 197px;
+    transition: .3s;
+}
+
+.area-news__title:hover {
+    color: rgb(205, 162, 116);
 }
 
 .area-news__date {
-    align-self: self-end;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
     color: rgb(77, 80, 83);
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
+
 
 /**********WIDGET-CATEGORY*****************/
 
