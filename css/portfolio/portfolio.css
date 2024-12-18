@@ -1,0 +1,22 @@
+.tab-content {
+    display: none;
+    animation: fading 1s;
+}
+
+.tab-link {
+
+}
+
+.tab-link.active {
+    font-weight: bold;
+    color: #CDA274;
+}
+
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
