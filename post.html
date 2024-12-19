@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="/css/main/modal.css" />
     <link rel="stylesheet" href="/css/main/hero.css" />
     <link rel="stylesheet" href="/css/main/articles.css" />
+    <link rel="stylesheet" href="/css/main/feedback_form.css" />
     <link rel="stylesheet" href="/css/post/post.css" />
+
     <link rel="stylesheet" href="/css/widget/widget.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -230,6 +232,30 @@
                     </div>
                 </div>
 
+                <div class="feedback-form-container">
+                    <h2 class="h2 feedback-form-container__h2">Leave a Reply</h2>
+                    <form class="feedback-form" action="#" method="POST">
+                        <input placeholder="Name" class="feedback-form__input" type="text" name="name" required />
+                        <input placeholder="Email" class="feedback-form__input" type="email" name="email" required />
+                        <input placeholder="Website" class="feedback-form__input" type="text" name="website" required />
+                        <input placeholder="Phone" class="feedback-form__input" type="text" name="phone" required />
+
+                        <textarea placeholder="Hello I am interested in" class="feedback-form__textarea"
+                            id="interested_in" name="interested_in"></textarea>
+                        <div class="feedback-confirm">
+                            <input class="feedback-form__input" type="checkbox" id="confirm">
+                            <label for="confirm">Save my name, email, and website in this browser for the next time I
+                                comment.</label>
+                        </div>
+
+
+                        <button type="submit" class="button feedback-form__submit">
+                            <span>Send Now</span>
+                            <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                        </button>
+                    </form>
+
+                </div>
             </div>
         </div>
     </main>
