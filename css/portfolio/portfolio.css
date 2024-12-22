@@ -2,14 +2,22 @@
     display: none;
     animation: fading 1s;
 }
-
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 18px;
+    border: 1px solid rgb(205, 162, 116);
+}
 .tab-link {
-
+    padding: 26px 66px;
+    border: none;
+    border-radius: 18px;
+    background: transparent;
 }
 
 .tab-link.active {
     font-weight: bold;
-    color: #CDA274;
+    background: rgb(205, 162, 116);
 }
 
 @keyframes fading {
