@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno</title>
+    <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main/header.css" />
+    <link rel="stylesheet" href="/css/main/footer.css" />
+    <link rel="stylesheet" href="/css/main/modal.css" />
+    <link rel="stylesheet" href="/css/main/hero.css" />
+    <link rel="stylesheet" href="/css/main/articles.css" />
+    <link rel="stylesheet" href="/css/blog/blog.css" />
+    <link rel="stylesheet" href="/css/error/error.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="#" class="logo">
+                    <img src="/img/logo.svg" alt="Interno Logo" />
+                </a>
+                <nav>
+                    <ul class="ul header__nav">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Our Projects</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Contact</a>
+                        </li>
+                        <li class="header__item">
+                            <button class="header__search" onClick="openModal();">
+                                <img src='/img/icon/search-icon.svg' alt="Search button" />
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="error page">
+            <div class="container">
+                <div class="error_content">
+                    <h2 class="error__title">404</h2>
+                    <p class="error__text">We are sorry, but the page you requested was not found</p>
+                    <button type="submit" class="button error__submit">
+                        <span>Back To Home</span>
+                        <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                    </button>
+                </div>
+
+            </div>
+            <div class="error_bg">
+                <div class="error__thumb">
+                    <img class="error__img" src="/img/404-page.png" alt="Изображение ошибки" />
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <div class="overlay" id="overlay">
+        <div class="modal-search">
+            <div class="container">
+                <div class="modal-search__content">
+                    <input class='modal-search__input' type="text" placeholder="Search" />
+                    <button class='modal-search__submit' type="submit">
+                    </button>
+                    <button class='modal-search__close' type="button" onClick="closeModal();">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/swiper/swiper-bundle.min.js"></script>
+    <script src="/script/search-actions.js"></script>
+    <script src="/script/slider.js"></script>
+    <script>
+        initializeSwiper('.swiper-feedback');
+    </script>
+</body>
+
+</html>
