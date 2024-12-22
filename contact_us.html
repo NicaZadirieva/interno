@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interno</title>
+    <link rel="stylesheet" href="/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main/header.css" />
+    <link rel="stylesheet" href="/css/main/footer.css" />
+    <link rel="stylesheet" href="/css/main/modal.css" />
+    <link rel="stylesheet" href="/css/main/hero.css" />
+    <link rel="stylesheet" href="/css/main/articles.css" />
+    <link rel="stylesheet" href="/css/main/feedback_form.css" />
+    <link rel="stylesheet" href="/css/blog/blog.css" />
+    <link rel="stylesheet" href="/css/contact/contact.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="#" class="logo">
+                    <img src="/img/logo.svg" alt="Interno Logo" />
+                </a>
+                <nav>
+                    <ul class="ul header__nav">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Our Projects</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Blog</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Contact</a>
+                        </li>
+                        <li class="header__item">
+                            <button class="header__search" onClick="openModal();">
+                                <img src="/img/icon/search-icon.svg" alt="Search button" />
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="thumb">
+            <img class="thumb__img" src="/img/header/header-articles-2.png" alt="Главное изображение блога" />
+            <div class="thumb__info">
+                <h2 class="h2 thumb__title">Contact Us</h2>
+                <ul class="ul breadcrumbs">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="page">
+            <div class="container">
+
+
+                <div class="contact-form-container">
+                    <h2 class="h2 contact__title">We love meeting new people and helping them.</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <input placeholder="Name" class="contact-form__input" type="text" name="name" required />
+                        <input placeholder="Email" class="contact-form__input" type="email" name="email" required />
+                        <input placeholder="Subject" class="contact-form__input" type="text" name="website" required />
+                        <input placeholder="Phone" class="contact-form__input" type="text" name="phone" required />
+
+                        <textarea placeholder="Hello I am interested in" class="contact-form__textarea"
+                            id="interested_in" name="interested_in"></textarea>
+
+
+                        <button type="submit" class="button contact-form__submit">
+                            <span>Send Now</span>
+                            <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer">
+                <a href="#" class="logo">
+                    <img src="/img/logo.svg" alt="Interno Logo" />
+                </a>
+                <ul class="ul footer__contacts">
+                    <li class="contacts__item">
+                        <div class="item__address">
+                            55 East Birchwood Ave. <br />
+                            Brooklyn, New York 11201
+                        </div>
+                    </li>
+
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:contact@interno.com">contact@interno.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="tel:1234567890">(123) 456 - 7890</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay" id="overlay">
+        <div class="modal-search">
+            <div class="container">
+                <div class="modal-search__content">
+                    <input class="modal-search__input" type="text" placeholder="Search" />
+                    <button class="modal-search__submit" type="submit"></button>
+                    <button class="modal-search__close" type="button" onClick="closeModal();"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/swiper/swiper-bundle.min.js"></script>
+    <script src="/script/search-actions.js"></script>
+    <script src="/script/slider.js"></script>
+    <script>
+        initializeSwiper(".swiper-feedback");
+    </script>
+</body>
+
+</html>

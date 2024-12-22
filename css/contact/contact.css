@@ -1,0 +1,48 @@
+
+
+.h2.contact__title {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 400;
+    width: 683px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 57px 40px;
+    max-width: 796px;
+    margin: 76px auto 0;
+}
+
+.contact-form__textarea {
+    grid-column: 1 / 3;
+    height: 175px;
+    resize: none;
+}
+
+.contact-form__submit {
+    margin: auto;
+    grid-column: 1 / 3;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(77, 80, 83);
+    font-family: 'Jost', sans-serif;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 13px;
+    transition: .2s;
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #CDA274;
+}
