@@ -68,31 +68,25 @@
         </div>
     </header>
     <main>
-        <div class="page">
-            <div class="container">
+        <div class="page container">
+            <div class="contact-form-container">
+                <h2 class="h2 contact__title">We love meeting new people and helping them.</h2>
+                <form class="contact-form" action="#" method="POST">
+                    <input placeholder="Name" class="contact-form__input" type="text" name="name" required />
+                    <input placeholder="Email" class="contact-form__input" type="email" name="email" required />
+                    <input placeholder="Subject" class="contact-form__input" type="text" name="website" required />
+                    <input placeholder="Phone" class="contact-form__input" type="text" name="phone" required />
+
+                    <textarea placeholder="Hello I am interested in" class="contact-form__textarea" id="interested_in"
+                        name="interested_in"></textarea>
 
 
-                <div class="contact-form-container">
-                    <h2 class="h2 contact__title">We love meeting new people and helping them.</h2>
-                    <form class="contact-form" action="#" method="POST">
-                        <input placeholder="Name" class="contact-form__input" type="text" name="name" required />
-                        <input placeholder="Email" class="contact-form__input" type="email" name="email" required />
-                        <input placeholder="Subject" class="contact-form__input" type="text" name="website" required />
-                        <input placeholder="Phone" class="contact-form__input" type="text" name="phone" required />
-
-                        <textarea placeholder="Hello I am interested in" class="contact-form__textarea"
-                            id="interested_in" name="interested_in"></textarea>
-
-
-                        <button type="submit" class="button contact-form__submit">
-                            <span>Send Now</span>
-                            <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
-                        </button>
-                    </form>
-
-                </div>
+                    <button type="submit" class="button contact-form__submit">
+                        <span>Send Now</span>
+                        <img src="/img/icon/arrow-next-icon.svg" alt="Изображение стрелки" />
+                    </button>
+                </form>
             </div>
-        </div>
     </main>
     <footer class="footer">
         <div class="container">
