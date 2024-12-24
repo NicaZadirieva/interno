@@ -9,7 +9,6 @@
 .header__nav {
     display: flex;
     align-items: center;
-    list-style-type: none;
     /*hint: переопределим отступ по умолчанию для тега ul*/
     padding-left: 0;
 }
