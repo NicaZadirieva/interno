@@ -23,10 +23,10 @@
 
 .swiper-feedback__text::before {
     content: '';
-    background-image: url('/img/icon/quote-icon.svg');
+    background-image: url('/img/icon/quote-icon-main.svg');
     display: block;
     width: 31px;
-    height: 23px;
+    height: 23.5px;
     margin: 0 auto 27px;
 }
 
@@ -47,14 +47,16 @@
     left: 92px;
 }
 
-.swiper-feedback__prev, .swiper-feedback__next {
+.swiper-feedback__prev,
+.swiper-feedback__next {
     background-color: #FFF;
     width: 52px;
     height: 52px;
     border-radius: 50%;
 }
 
-.swiper-feedback__next::after, .swiper-feedback__prev::after {
+.swiper-feedback__next::after,
+.swiper-feedback__prev::after {
     content: '';
     background-image: url('/img/icon/arrow-next-icon-2.svg');
     background-size: cover;
