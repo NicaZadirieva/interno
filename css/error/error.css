@@ -58,3 +58,22 @@
     right: -9px;
 }
 
+@media (max-width: 1200px) {
+    .error {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .error__title {
+        font-size: 200px;
+        /* чтобы визуально было норм в маленьких экранах*/
+    }
+
+    .error__text {
+        font-size: 30px;
+    }
+
+    .error__content {
+        max-width: 385px;
+    }
+}
