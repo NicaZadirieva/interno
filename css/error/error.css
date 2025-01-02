@@ -48,3 +48,12 @@
     margin-bottom: 40px;
     max-width: 485px;
 }
+
+.error__submit {
+    padding: 26px 54px 26px 54px;
+}
+
+.error__submit > img {
+    position: relative;
+    right: -9px;
+}
