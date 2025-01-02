@@ -33,9 +33,10 @@
     position: relative;
     overflow: hidden;
     /*hint: это для текста внутри*/
-    border-radius: 0 40vh 0 30vh;
-    min-width: 732px;
-    max-height: 1097px;
+    border-radius: 0 clamp(100px, 40vh, 240px) 0 clamp(100px, 30vh, 240px);
+    height: 653px;
+    flex-grow: 1;
+    flex-basis: 700px;
 }
 
 .about__img {
@@ -66,21 +67,45 @@
     display: block;
 }
 
+.about__text {
+    flex-basis: calc(100% - 700px);
+    flex-grow: 1;
+}
 /* Media */
 
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 900px;
-    }
+@media screen and (max-width: 1200px) {
 
     .about {
-        flex-direction: column;
         padding: 0;
+        gap: 5%;
     }
 
-    .about__thumb {
-        max-width: 100%;
-        border-radius: 0 clamp(100px, 40vh, 240px) 0 clamp(100px, 30vh, 240px);
+    .about__text {
+        flex-basis: 45%;
     }
+    .about__thumb {
+        flex-basis: 50%;
+    }
+
+    .about__text .h2 {
+        font-size: 37px;
+    }
+
+    .about__tel-content > a:first-child {
+        font-size: 20px;
+    }
+
+    .about__tel-content > a:last-child {
+        font-size: 18px;
+    }
+
+    .about__tel__button {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
 
 }

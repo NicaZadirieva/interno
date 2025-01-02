@@ -20,6 +20,7 @@ body {
     font-family: 'DM Serif Display', serif;
     font-size: 50px;
     font-weight: 400;
+    margin: 0;
 }
 a.button-container {
     text-decoration: none;
@@ -81,4 +82,16 @@ a.button-container {
 .list-item__link {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
 }
