@@ -85,6 +85,9 @@ a.button-container {
 }
 
 @media screen and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
     .container {
         max-width: 900px;
     }
@@ -93,5 +96,9 @@ a.button-container {
 @media screen and (max-width: 768px) {
     .container {
         max-width: 600px;
+    }
+
+    .page {
+        margin-top: 120px;
     }
 }
