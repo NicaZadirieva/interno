@@ -1,6 +1,3 @@
-.swiper-feedback {
-  margin-top: 200px;
-}
 
 .swiper-feedback__slide {
   text-align: center;
@@ -95,29 +92,13 @@
     font-size: 37px;
   }
 }
-/*TODO: выяснить, нужны ли дубликаты. Как обойтись без них?*/
+
 @media screen and (max-width: 768px) {
-  .swiper-feedback__text {
-    font-size: 25px;
-  }
-
-  .swiper-feedback__author {
-    font-size: 20px;
-  }
-
-  .swiper-feedback__slide {
-    padding: 88px 100px 80px;
-  }
-
   .swiper-feedback__next {
     right: 45px;
   }
 
   .swiper-feedback__prev {
     left: 45px;
-  }
-
-  .title {
-    font-size: 37px;
   }
 }
