@@ -34,29 +34,6 @@
 
 @media (max-width: 1200px) {
 
-    /* уменьшаем размер контента */
-    .container {
-        max-width: 930px;
-    }
-
-    .error {
-        padding-top: 80px;
-        padding-bottom: 50px;
-    }
-
-    .error__title {
-        font-size: 200px;
-        /* чтобы визуально было норм в маленьких экранах*/
-    }
-
-    .error__text {
-        font-size: 30px;
-    }
-
-    .error__content {
-        max-width: 385px;
-    }
-
     ul.footer__contacts {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -73,5 +50,18 @@
     .contacts__item:has(.item__address) {
         grid-row: 1 / 3;
         text-align: start;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    ul.footer__contacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0 15px;
+    }
+
+    .contacts__item:has(.item__address) {
+        text-align: right;
     }
 }
