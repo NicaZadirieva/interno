@@ -27,3 +27,13 @@
 .hero__title, .hero__text {
     max-width: 567px;
 }
+
+/* Media */
+
+@media (max-width: 600px) {
+    .hero {
+        height: calc(100vh - 96px);
+        border-radius: 0;
+        padding-top: 15vh;
+    }
+}
