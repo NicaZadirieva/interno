@@ -1,7 +1,6 @@
-.h2.contact__title {
+.contact__title {
     text-align: center;
     font-family: 'DM Serif Display', serif;
-    font-size: 50px;
     font-weight: 400;
     width: 683px;
     margin: 0 auto;
@@ -116,4 +115,18 @@
 
 .contact-us__footer {
     margin-top: 260px;
+}
+
+/* Media */
+@media screen and (max-width: 1200px) {
+    
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .contact__info {
+        order: 2;
+        padding: 50px;
+    }
+ 
 }
