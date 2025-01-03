@@ -36,4 +36,8 @@
         border-radius: 0;
         padding-top: 15vh;
     }
+
+    .hero__title {
+        font-size: 13vw;
+    }
 }
