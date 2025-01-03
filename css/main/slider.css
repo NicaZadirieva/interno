@@ -83,11 +83,14 @@
   .swiper-feedback__slide {
     padding: 88px 100px 80px;
   }
+
   .swiper-feedback__next {
     right: 50px;
+    top: 80%;
   }
 
   .swiper-feedback__prev {
+    top: 80%;
     left: 50px;
   }
 
@@ -106,5 +109,5 @@
   .swiper-feedback__prev {
     left: 45px;
   }
-  
+
 }
