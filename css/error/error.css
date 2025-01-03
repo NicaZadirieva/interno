@@ -58,6 +58,8 @@
     right: -9px;
 }
 
+/* Media */
+
 @media (max-width: 1200px) {
     .error {
         padding-top: 80px;

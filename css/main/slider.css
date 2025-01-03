@@ -69,7 +69,9 @@
   transform: rotate(180deg);
 }
 
+/* Media */
 @media screen and (max-width: 1200px) {
+
   .swiper-feedback__text {
     font-size: 25px;
   }
@@ -88,12 +90,15 @@
   .swiper-feedback__prev {
     left: 50px;
   }
+
   .title {
     font-size: 37px;
   }
+
 }
 
 @media screen and (max-width: 768px) {
+
   .swiper-feedback__next {
     right: 45px;
   }
@@ -101,4 +106,5 @@
   .swiper-feedback__prev {
     left: 45px;
   }
+  
 }

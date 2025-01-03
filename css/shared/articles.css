@@ -86,7 +86,10 @@
   gap: 70px;
 }
 
+/* Media */
+
 @media screen and (max-width: 1200px) {
+
   .article__thumb {
     height: 250px;
   }
@@ -103,10 +106,13 @@
   .articles__items {
     gap: 15px;
   }
+
 }
 
 @media screen and (max-width: 768px) {
+
   .articles__items {
     grid-template-columns: 1fr;
   }
+  
 }
