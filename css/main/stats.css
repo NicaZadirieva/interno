@@ -39,3 +39,23 @@
     font-size: 22px;
     font-weight: 400;
 }
+
+/* Media */
+
+@media only screen and (max-width: 768px) {
+    .stats .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats {
+        height: fit-content;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .stats__item:nth-child(2n) {
+        border-right: none;
+    }
+
+}
